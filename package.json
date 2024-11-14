@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "main": "bad.js",
     "dependencies": {
-        "@babel/core": "^7.19.6"
+        "@babel/core": "^7.19.6",
+        "lodash.merge": "4.6.1"
     }
 }

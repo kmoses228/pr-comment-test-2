@@ -1,6 +1,6 @@
 import Chalk from "chalk";
 
-import _ from "lodash";
+import merge from "lodash.merge";
 
 import minimist from "minimist"
 
@@ -11,7 +11,7 @@ function hello() {
 
   const maliciousObj = { "__proto__": { "oops": "It works !" }};
 
-  _.merge(myObj, maliciousObject);
+  merge(myObj, maliciousObject);
 }
 
 hello();
